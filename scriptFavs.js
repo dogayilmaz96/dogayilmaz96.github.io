@@ -10,9 +10,6 @@ const sixthModal = document.querySelector(".sixthModal");
 const seventhModal = document.querySelector(".seventhModal");
 const eightModal = document.querySelector(".eightModal");
 const ninethModal = document.querySelector(".ninethModal");
-const tenthModal = document.querySelector(".tenthModal");
-const eleventhModal = document.querySelector(".eleventhModal");
-const twelvethModal = document.querySelector(".twelvethModal");
 
 const overlay = document.querySelector(".overlay");
 
@@ -25,9 +22,6 @@ const btnOpenModal6 = document.querySelector(".show-modal6");
 const btnOpenModal7 = document.querySelector(".show-modal7");
 const btnOpenModal8 = document.querySelector(".show-modal8");
 const btnOpenModal9 = document.querySelector(".show-modal9");
-const btnOpenModal10 = document.querySelector(".show-modal10");
-const btnOpenModal11 = document.querySelector(".show-modal11");
-const btnOpenModal12 = document.querySelector(".show-modal12");
 
 const btnCloseModal = document.querySelector(".close-modal");
 
@@ -81,21 +75,6 @@ btnOpenModal8.addEventListener("click", function () {
 btnOpenModal9.addEventListener("click", function () {
   console.log("button clicked");
   ninethModal.classList.remove("hidden");
-  overlay.classList.remove("hidden");
-});
-btnOpenModal10.addEventListener("click", function () {
-  console.log("button clicked");
-  tenthModal.classList.remove("hidden");
-  overlay.classList.remove("hidden");
-});
-btnOpenModal11.addEventListener("click", function () {
-  console.log("button clicked");
-  eleventhModal.classList.remove("hidden");
-  overlay.classList.remove("hidden");
-});
-btnOpenModal12.addEventListener("click", function () {
-  console.log("button clicked");
-  twelvethModal.classList.remove("hidden");
   overlay.classList.remove("hidden");
 });
 

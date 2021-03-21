@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My favorites</title>
-    <link rel="stylesheet" href="myfavs.css" />
+    <link rel="stylesheet" href="newStyle.css" />
   </head>
   <body>
     <div id="wrapper">
@@ -18,39 +18,19 @@
           <div>
             <li>
               <button>
-                <img class="" src="myfavs1.jpg" alt="" />
+                <img class="show-modal" src="myfavs1.jpg" alt="" width="300px"  />
               </button>
             </li>
 
             <li>
               <button>
-                <img class="" src="myfavs2.jpg" alt="" />
+                <img class="show-modal2" src="myfavs2.jpg" alt="" width="300px"   />
               </button>
             </li>
 
             <li>
               <button>
-                <img class="" src="myfavs3.jpg" alt="" />
-              </button>
-            </li>
-          </div>
-
-          <div>
-            <li>
-              <button>
-                <img class="" src="myfavs4.jpg" alt="" />
-              </button>
-            </li>
-
-            <li>
-              <button>
-                <img class="" src="myfavs5.jpg" alt="" />
-              </button>
-            </li>
-
-            <li>
-              <button>
-                <img class="" src="myfavs6.jpg" alt="" />
+                <img class="show-modal3" src="myfavs3.jpg" alt="" width="300px" />
               </button>
             </li>
           </div>
@@ -58,19 +38,19 @@
           <div>
             <li>
               <button>
-                <img class="" src="myfavs7.jpg" alt="" />
+                <img class="show-modal4" src="myfavs4.jpg" alt="" width="300px" />
               </button>
             </li>
 
             <li>
               <button>
-                <img class="" src="myfavs8.jpg" alt="" />
+                <img class="show-modal5" src="myfavs5.jpg" alt="" width="300px" />
               </button>
             </li>
 
             <li>
               <button>
-                <img class="" src="myfavs9.jpg" alt="" />
+                <img class="show-modal6" src="myfavs6.jpg" alt="" width="300px" />
               </button>
             </li>
           </div>
@@ -78,24 +58,75 @@
           <div>
             <li>
               <button>
-                <img class="" src="" alt="" />
+                <img class="show-modal7" src="myfavs7.jpg" alt="" width="300px" />
               </button>
             </li>
 
             <li>
               <button>
-                <img class="" src="" alt="" />
+                <img class="show-modal8" src="myfavs8.jpg" alt="" width="300px"  />
               </button>
             </li>
 
             <li>
               <button>
-                <img class="" src="" alt="" />
+                <img class="show-modal9" src="myfavs9.jpg" alt="" width="300px" />
               </button>
             </li>
           </div>
         </ul>
       </div>
     </div>
+
+    <div class="modals">
+      <div class="firstModal hidden">
+        <button class="close-modal">&times;</button>
+        <img src="myfavs1.jpg" alt="" />
+      </div>
+
+      <div class="secondModal hidden">
+        <button class="close-modal">&times;</button>
+        <img src="myfavs2.jpg" alt="" />
+      </div>
+
+      <div class="thirdModal hidden">
+        <button class="close-modal">&times;</button>
+        <img src="myfavs3.jpg" alt="" />
+      </div>
+
+      <div class="forthModal hidden">
+        <button class="close-modal">&times;</button>
+        <img src="myfavs4.jpg" alt="" />
+      </div>
+
+      <div class="fifthModal hidden">
+        <button class="close-modal">&times;</button>
+        <img src="myfavs5.jpg" alt="" />
+      </div>
+
+      <div class="sixthModal hidden">
+        <button class="close-modal">&times;</button>
+        <img src="myfavs6.jpg" alt="" />
+      </div>
+
+      <div class="seventhModal hidden">
+        <button class="close-modal">&times;</button>
+        <img src="myfavs7.jpg" alt="" />
+      </div>
+
+      <div class="eightModal hidden">
+        <button class="close-modal">&times;</button>
+        <img src="myfavs8.jpg" alt="" />
+      </div>
+
+      <div class="ninethModal hidden">
+        <button class="close-modal">&times;</button>
+        <img src="myfavs9.jpg" alt="" />
+      </div>
+    </div>
+  </div> 
+    <div class="overlay hidden"></div>
+  </div>
+    <script src="scriptFavs.js"></script>
   </body>
 </html>
